@@ -82,8 +82,11 @@ public class ScreenLockSettings extends DashboardFragment
                 context, MY_USER_ID, lockPatternUtils));
         controllers.add(new ScramblePinPreferenceController(
                 context, MY_USER_ID, lockPatternUtils));
+<<<<<<< HEAD
         controllers.add(new QuickUnlockPreferenceController(
                 context, MY_USER_ID, lockPatternUtils));
+=======
+>>>>>>> 9c9c49d... Add option to scramble pin layout when unlocking (1/2).
         controllers.add(new OwnerInfoPreferenceController(context, parent, lifecycle));
         return controllers;
     }
