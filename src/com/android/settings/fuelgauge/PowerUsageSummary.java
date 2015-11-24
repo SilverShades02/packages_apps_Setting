@@ -265,10 +265,31 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
                 .setAlphabeticShortcut('d');
         reset.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
 
+        MenuItem reset = menu.add(0, MENU_STATS_RESET, 0, R.string.battery_stats_reset)
+                .setIcon(R.drawable.ic_delete)
+                .setAlphabeticShortcut('d');
+        reset.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
+
         menu.add(Menu.NONE, MENU_ADVANCED_BATTERY, Menu.NONE, R.string.advanced_battery_title);
 
         super.onCreateOptionsMenu(menu, inflater);
     }
+    private void resetStats() {
+        AlertDialog dialog = new AlertDialog.Builder(getActivity())
+            .setTitle(R.string.battery_stats_reset)
+            .setMessage(R.string.battery_stats_message)
+            .setPositiveButton(R.string.ok_string, new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                    mStatsHelper.resetStatistics();
+                    refreshUi(BatteryUpdateType.MANUAL);
+                }
+            })
+            .setNegativeButton(R.string.cancel, null)
+            .create();
+        dialog.show();
+    }
+
     private void resetStats() {
         AlertDialog dialog = new AlertDialog.Builder(getActivity())
             .setTitle(R.string.battery_stats_reset)
