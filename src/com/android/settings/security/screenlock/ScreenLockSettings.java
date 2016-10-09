@@ -83,10 +83,15 @@ public class ScreenLockSettings extends DashboardFragment
         controllers.add(new ScramblePinPreferenceController(
                 context, MY_USER_ID, lockPatternUtils));
 <<<<<<< HEAD
+<<<<<<< HEAD
         controllers.add(new QuickUnlockPreferenceController(
                 context, MY_USER_ID, lockPatternUtils));
 =======
 >>>>>>> 9c9c49d... Add option to scramble pin layout when unlocking (1/2).
+=======
+        controllers.add(new QuickUnlockPreferenceController(
+                context, MY_USER_ID, lockPatternUtils));
+>>>>>>> 19e2852... Keyguard: Forward port lockscreen quick unlock (2/2)
         controllers.add(new OwnerInfoPreferenceController(context, parent, lifecycle));
         return controllers;
     }
