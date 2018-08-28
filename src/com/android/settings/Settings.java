@@ -168,5 +168,6 @@ public class Settings extends SettingsActivity {
     public static class SMQQtiFeedbackActivity extends SettingsActivity { /* empty */ }
     public static class WaveSettingsActivity extends SettingsActivity {}
     public static class HeadsUpSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class ButtonSettingsActivity extends SettingsActivity { /* empty */ }
 
 }
