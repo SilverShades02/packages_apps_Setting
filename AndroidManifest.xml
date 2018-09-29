@@ -3405,7 +3405,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.nitrogen.settings.fragments.HeadsUpSettings" />
+                android:value="com.wave.settings.fragments.HeadsUpSettings" />
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                 android:value="true" />
         </activity>
@@ -3419,7 +3419,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.nitrogen.settings.fragments.ButtonSettings" />
+                android:value="com.wave.settings.fragments.ButtonSettings" />
         </activity>
 
         <!-- This is the longest AndroidManifest.xml ever. -->
