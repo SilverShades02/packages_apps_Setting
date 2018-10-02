@@ -42,6 +42,6 @@
         android:title="@string/color_manager_accent_title"
         android:entries="@array/system_accent_entries"
         android:entryValues="@array/system_accent_values"
-        settings:controller="com.android.settings.aoscp.display.SystemAccentPreferenceController" />
+        settings:controller="com.android.settings.wave.display.SystemAccentPreferenceController" />
 
 </PreferenceScreen>

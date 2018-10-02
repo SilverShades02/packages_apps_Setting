@@ -14,7 +14,7 @@
  * limitations under the License
  */
 
-package com.android.settings.aoscp.display;
+package com.android.settings.wave.display;
 
 import static android.provider.Settings.Secure.SYSTEM_ACCENT;
 

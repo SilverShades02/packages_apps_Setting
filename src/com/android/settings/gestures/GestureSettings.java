@@ -25,7 +25,7 @@ import android.support.annotation.Nullable;
 import com.android.internal.hardware.AmbientDisplayConfiguration;
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
-import com.android.settings.aoscp.gestures.TapToSleepPreferenceController;
+import com.android.settings.wave.gestures.TapToSleepPreferenceController;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.core.AbstractPreferenceController;

@@ -75,7 +75,7 @@
         android:key="color_manager"
         android:title="@string/color_manager_title"
         android:summary="@string/color_manager_summary"
-        android:fragment="com.android.settings.aoscp.display.ColorManagerFragment" />
+        android:fragment="com.android.settings.wave.display.ColorManagerFragment" />
 
     <Preference
         android:key="color_mode"

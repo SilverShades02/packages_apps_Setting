@@ -30,16 +30,16 @@ import android.view.View;
 import com.android.settings.R;
 import com.android.settingslib.RestrictedLockUtils;
 
-public class AoscpVersionDialogController implements View.OnClickListener {
+public class WaveVersionDialogController implements View.OnClickListener {
 
-    private static final String TAG = "aoscpFirmwareDialogCtrl";
+    private static final String TAG = "waveFirmwareDialogCtrl";
     private static final int DELAY_TIMER_MILLIS = 500;
     private static final int ACTIVITY_TRIGGER_COUNT = 3;
 
     @VisibleForTesting
-    static final int FIRMWARE_VERSION_VALUE_ID = R.id.aoscp_firmware_version_value;
+    static final int FIRMWARE_VERSION_VALUE_ID = R.id.wave_firmware_version_value;
     @VisibleForTesting
-    static final int FIRMWARE_VERSION_LABEL_ID = R.id.aoscp_firmware_version_label;
+    static final int FIRMWARE_VERSION_LABEL_ID = R.id.wave_firmware_version_label;
 
     private final FirmwareVersionDialogFragment mDialog;
     private final Context mContext;
@@ -49,7 +49,7 @@ public class AoscpVersionDialogController implements View.OnClickListener {
     private RestrictedLockUtils.EnforcedAdmin mFunDisallowedAdmin;
     private boolean mFunDisallowedBySystem;
 
-    public AoscpVersionDialogController(FirmwareVersionDialogFragment dialog) {
+    public WaveVersionDialogController(FirmwareVersionDialogFragment dialog) {
         mDialog = dialog;
         mContext = dialog.getContext();
         mUserManager = (UserManager) mContext.getSystemService(Context.USER_SERVICE);

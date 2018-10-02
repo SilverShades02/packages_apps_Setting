@@ -16,7 +16,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
-    <string name="aoscp_firmware_version">CypherOS version</string>
+    <string name="wave_firmware_version">WaveOS version</string>
 
     <!-- Color Manager -->
     <string name="color_manager_title">Color manager</string>

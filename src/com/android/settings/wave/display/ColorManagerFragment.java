@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.aoscp.display;
+package com.android.settings.wave.display;
 
 import android.content.ContentResolver;
 import android.content.Context;
